@@ -1,0 +1,42 @@
+.app.dark{
+  background-color:#111;
+  color: rgb(156,156,156);
+
+  .chartGrid{
+    color: rgb(156,156,156);
+  }
+
+  .table{
+    background-color:#111;
+
+    .tableCell{
+      color:gray;
+    }
+  }
+  .dataTableColumn{
+    color:gray;
+  }
+
+  .navbar{
+    color:cyan;
+    background-color:darkblue
+  }
+   .sidebar{
+    color:cyan;
+    background-color:darkblue
+  }
+
+  input{
+    background-color:transparent;
+ 
+     &::placeholder{
+        color:rgb(77, 72, 72);
+        font-size: 12px;
+      }
+  }
+
+  .widgets{
+    color:blue;
+  }
+ 
+}

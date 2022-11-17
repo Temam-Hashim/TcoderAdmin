@@ -1,0 +1,39 @@
+.home{
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  .homeContainer{
+      flex:6;
+      margin-left: 17%;
+    .widgets{
+      display: flex;
+      margin-top: 15px;
+      padding: 5px 20px;
+      gap:15px;
+      flex-wrap: wrap;
+      width: fit-content;
+    }
+    .charts1, .charts2{
+        display:flex;
+        padding:15px 20px;
+        color:gray;
+        gap:20px;
+    }
+  
+    .listContainer{
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+      box-shadow: 2px 4px 10px 1px rgba(188, 184, 184, 0.47);
+      padding:20px;
+      margin:20px;
+
+      .listTitle{
+        font-weight: 500;
+        font-size: 18px;
+        color:gray;
+        margin-bottom: 15px;
+        margin-top:15px;
+      }
+    }
+  }
+
+}
